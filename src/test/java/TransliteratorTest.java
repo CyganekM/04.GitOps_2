@@ -7,6 +7,7 @@ public class TransliteratorTest {
     @Test
     public void testBasicTransliteration() {
         assertEquals("Privet mir!", Transliterator.transliterate("Привет мир!"));
+
     }
 
     @Test
