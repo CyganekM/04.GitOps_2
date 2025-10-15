@@ -30,7 +30,7 @@ jobs:
     - name: Test Results
       if: always()
       run: |
-        if [ -f "target/surefire-reports/TEST-com.example.TransliteratorTest.xml" ]; then
+        if [ -f "target/surefire-reports/TransliteratorTest.xml" ]; then
           echo "✅ Тесты выполнены успешно!"
           echo "Отчеты тестов доступны в target/surefire-reports/"
         else
